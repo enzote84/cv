@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+	<meta charset="utf-8">
+    <!-- Make it compatible with IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<title>Curriculum Vitae - David Enzo Medina Redondo</title>
+    
+    <!-- Use Google's fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Macondo">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    
+    <!-- Define our style file -->
+    <!--<link rel="stylesheet" type="text/css" href="style/main.css">-->
+    <link rel="stylesheet" href="style/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body class="w3-content" style="max-width:800px">
+
+<header class="w3-container">
+    <h1>David Enzo Medina Redondo</h1>
+</header>
+
+<nav class="w3-bar w3-teal">
+    <a id="home-menu" class="w3-bar-item w3-button w3-mobile w3-hide-small w3-green" href="#" onclick="menuHome()">Home</a>
+    <a id="education-menu" class="w3-bar-item w3-button w3-hide-small" href="#" onclick="menuEducation()">Education</a>
+    <a id="work-experience-menu" class="w3-bar-item w3-button w3-hide-small" href="#" onclick="menuWorkExperience()">Work experience</a>
+    <a id="collapse-menu" class="w3-bar-item w3-button w3-hide-medium w3-hide-large" href="#" onclick="menuCollapse()">&#9776;</a>
+    <div id="collapsable-menu" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+        <a href="#" class="w3-bar-item w3-button" onclick="menuHome()">Home</a>
+        <a href="#" class="w3-bar-item w3-button" onclick="menuEducation()">Education</a>
+        <a href="#" class="w3-bar-item w3-button" onclick="menuWorkExperience()">Work Experience</a>
+    </div>
+</nav>
+
+<div class="w3-container w3-lightgray">
+    <!--
+    <aside class="w3-col w3-hide-small" style="width: 120px">
+        <img class="w3-circle" src="images/profile01.jpg" alt="David Enzo Medina Redondo">
+        <p>Contact:</p>
+        <ul class="w3-ul"><a href="mailto:davidenzomedina@gmail.com">e-mail</a>
+        </ul>
+    </aside>
+    -->
+
+	<!-- Home article -->
+    <article id="home-article" class="w3-container w3-rest w3-show">
+    Article
+    </article>
+	
+	<!-- Education article -->
+	<article id="education-article" class="w3-container w3-rest w3-hide">
+	<h2>Education</h2>
+	<table class="w3-table w3-bordered w3-hoverable">
+		<tr class="w3-light-green">
+			<th>Period</th>
+			<th>Type</th>
+			<th>Degree</th>
+			<th>Score (1-10)</th>
+			<th>Institute</th>
+			<th>Venue</th>
+		</tr>
+		<tr class="w3-hover-green">
+			<td>2003 to 2012</td>
+			<td>University</td>
+			<td><span class="w3-tag w3-teal">Bioengineer</span></td>
+			<td>8.44</td>
+			<td><a href="http://ingenieria.uner.edu.ar/" target="_blank">Universidad Nacional de Entre R&iacute;os</a></td>
+			<td><a href="https://www.google.com.ar/maps/place/Facultad+de+Ingenier%C3%ADa+(UNER)/@-31.8327477,-60.5220786,17.53z/data=!4m5!3m4!1s0x95b44b90daf02bfb:0xb7055407db4ba04b!8m2!3d-31.8326845!4d-60.5216532" target="_blank">Oro Verde</a></td>
+		</tr>
+		<tr class="w3-hover-green">
+			<td>1997 to 2002</td>
+			<td>High School</td>
+			<td><span class="w3-tag w3-teal">Electromechanical Technician</span></td>
+			<td>9.6</td>
+			<td><a href="https://eet22.webnode.com.ar/" target="_blank">Escuela de Educaci&oacute;n T&eacute;cnica N° 22</a></td>
+			<td><a href="https://www.google.com.ar/maps/place/E.E.T+N%C2%B0+22+%22Tte+Benjamin+Matienzo%22/@-26.7777863,-60.4374527,19z/data=!3m1!4b1!4m5!3m4!1s0x94412d04804f96e7:0x226f3d1f84659c08!8m2!3d-26.7777875!4d-60.4369055" target="_blank">S&aacute;enz Pe&ntilde;a</a></td>
+		</tr>
+	</table>
+	</article>
+	
+	<!-- Work Experience article -->
+	<article id="work-experience-article" class="w3-container w3-rest w3-hide">
+	Work experience article
+	</article>
+</div>
+
+<footer class="w3-container w3-margin-top w3-center w3-black">
+    <p>Contact me</p>
+    <i class="fa fa-envelope w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<!-- Include JavaScript files -->
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
